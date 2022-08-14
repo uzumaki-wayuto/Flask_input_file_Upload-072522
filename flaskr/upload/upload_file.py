@@ -6,7 +6,7 @@ from datetime import datetime
 
 ALLOWED_EXTENSIONS = {'mp4', 'mp3', 'jpg', 'png', 'gif', 'txt', 'rtf', 'pdf'}
 
-def allowed_file(filename):
+def allowed_file(filename: str) -> bool:
     """ check whether file or not and is allowed file ext
     parameter : file name
     return boolean """
