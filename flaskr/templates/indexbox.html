@@ -1,0 +1,13 @@
+<div class="container mb-5 py-5 bg-secondary">
+   <div class="container mx-auto" style="width:auto">
+      <a class="btn btn-lg my-3 py-3 btn-outline-light text-decoration-none" href="{{ url_for('send_file.upload') }}"
+         style="display:block;margin-left:auto;margin-right:auto;width:200px"> Upload </a>
+   </div>
+   {% if extensions %}
+      <p class="text-light"> Allowed :
+         {% for ext in extensions %}
+            {{ext }}
+         {% endfor %}
+      </p>
+   {% endif %}
+</div>
