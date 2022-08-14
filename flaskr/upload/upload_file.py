@@ -42,7 +42,7 @@ def upload():
                 print(x)
                 if x == 15000:
                     break
-                    x+=1
+                x+=1
             return redirect(url_for('send_file.download_list', filename=new_filename, navs=navs))
         flash('Invalid File Type ', 'warning')
         return redirect(url_for('.index'))
