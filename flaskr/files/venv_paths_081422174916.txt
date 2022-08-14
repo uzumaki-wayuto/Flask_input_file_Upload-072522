@@ -1,0 +1,2 @@
+"C:\\Users\\Admin\\.virtualenvs\\Admin-cNJ1Id3L\\Scripts\\activate.bat"
+"C:\\Users\\Admin\\flaskenv\\Scripts\\activate.bat"
